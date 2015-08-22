@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <title>Full screen</title>
+    <link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/jgallery.css?v=1.5.0" />
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/jgallery.js?v=1.5.0"></script>
+    <script type="text/javascript" src="js/touchswipe.min.js"></script>
+</head>
+<body style="width: 900px; margin: 100px auto; height: auto;">
+<div id="gallery">
+    <a href="images/large/animal/cat.jpg"><img src="images/large/animal/cat.jpg" alt="Cat" /></a>
+	<a href="images/large/animal/dog.jpg"><img src="images/large/animal/dog.jpg" alt="Dog" /></a>
+	<a href="images/large/animal/lion.jpg"><img src="images/large/animal/lion.jpg" alt="Lion" /></a>
+	<a href="images/large/animal/mongkey.jpg"><img src="images/large/animal/monkey.jpg" alt="Monkey" /></a>
+	<a href="images/large/animal/pig.jpg"><img src="images/large/animal/pig.jpg" alt="Pig" /></a>
+	<a href="images/large/animal/tiger.jpg"><img src="images/large/animal/tiger.jpg" alt="Tiger" /></a>
+    
+</div>
+<script type="text/javascript">
+$( function() {
+    $( '#gallery' ).jGallery( { mode: 'full-screen', backgroundColor: 'black' } );	
+} );
+</script>
+</body>
+</html>
